@@ -1,0 +1,112 @@
+.page-header {
+    background: #eee;
+}
+
+.page-header .form-inline {
+    margin-top: 20px;
+}
+
+.user {
+    background-image: url("../img/user.png");
+    background-repeat: no-repeat;
+    background-position: 65px 10px;
+    background-size: 40px;
+    padding: 20px;
+}
+
+.user h1 {
+    font-weight: bold;
+}
+
+.banner {
+    border: 1px solid grey;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.banner a {
+    display: block;
+    color: #fff;
+    width: 100%;
+}
+
+.banner a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.items {
+    border: 1px solid grey;
+    margin: 0 20px 20px 0;
+    /*position: relative;*/
+}
+
+.items img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+span,p {
+    font-size: 1.6em;
+}
+
+.corner-ribbon{
+    width: 77px;
+    background: #e43;
+    position: absolute;
+    top: 25px;
+    left: -50px;
+    text-align: center;
+    line-height: 17px;
+    letter-spacing: 1px;
+    color: #f0f0f0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+/* фиксируем ленточки */
+.corner-ribbon.sticky{
+    /*position: fixed;*/
+}
+
+.corner-ribbon.shadow{
+    box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+
+.corner-ribbon.top-left{ /* верхний угол слева */
+    top: 20px;
+    left: -10px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.corner-ribbon.top-right{ /* верхний угол справа */
+    top: 25px;
+    right: -50px;
+    left: auto;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.corner-ribbon.bottom-left{ /* нижний угол слева */
+    top: auto;
+    bottom: 25px;
+    left: -50px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.corner-ribbon.bottom-right{ /* нижний угол справа */
+    top: auto;
+    right: -50px;
+    bottom: 25px;
+    left: auto;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.corner-ribbon.red {
+    background: #e43;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
